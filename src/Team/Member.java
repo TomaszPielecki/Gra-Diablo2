@@ -1,10 +1,10 @@
 package Team;
 
 public class Member {
-    String name;
-    String type;
-    int lvl;
-    int rank;
+    private final String name;
+    private String type;
+    private int lvl;
+    private int rank;
 
     public Member(String name, String type, int lvl, int rank) {
         this.name = name;
@@ -12,7 +12,9 @@ public class Member {
         this.lvl = lvl;
         this.rank = rank;
     }
-
+    public String toString(){
+    return name+" "+type+" "+lvl+" "+rank;
+    }
 
     public String getName() {
         return name;
@@ -25,7 +27,7 @@ public class Member {
     public int getLvl() {
         return lvl;}
 
-        public int getRank() {
+    public int getRank() {
             return rank;
         }
     }
