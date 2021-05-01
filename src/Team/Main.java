@@ -16,16 +16,9 @@ public class Main {
         System.out.println(myMember2.getName());
         System.out.println(myMember3.getType());
         System.out.println(myTeam.member.getName());
-
-
-
-
-
         System.out.println(myMember1.getLvl());
         System.out.println(myMember2.getRank());
 
         System.out.println(myMember2+"|"+myMember3);
-        myMember.gracze();
-        myMember2.gracze();
     }
 }

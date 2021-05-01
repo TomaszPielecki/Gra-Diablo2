@@ -28,9 +28,11 @@ public class Member {
         return lvl;}
 
     public int getRank() {
-            return rank;
+            return rank;}
+            public void gracze(){
+            System.out.println("Jestem "+getName()+" gram taka profesja: "+ getType()+" Mam "+getLvl()+"lvl");
         }
-    }
+        }
 
 
 
