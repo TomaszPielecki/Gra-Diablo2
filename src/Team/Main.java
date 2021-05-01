@@ -20,5 +20,7 @@ public class Main {
         System.out.println(myMember2.getRank());
 
         System.out.println(myMember2+"|"+myMember3);
+        myMember1.gracze();
+        myMember.gracze();
     }
 }
